@@ -1,0 +1,25 @@
+body{
+  background-color: #2a1438fe;
+}
+.color{
+  background-color: #371e47fe;
+  color: #371e47fe;
+}
+.color-secondary{
+  background-color: #2a1438fe;
+}
+
+.shadow{
+  -webkit-box-shadow: 0 4px 2px -2px #999;
+  -moz-box-shadow: 0 4px 2px -2px #999;
+  box-shadow: 0 4px 2px -2px #999;
+}
+
+.coin-sm{
+  height: 24px;
+  width: 24px;
+}
+
+.color-yellow{
+  color: #edbd2f;
+}
