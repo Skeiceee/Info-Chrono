@@ -15,7 +15,7 @@ In order to obtain your Authorization Token, you must follow these steps:
 * Filter for "Account"
 * Keep the network tab open and refresh the page
 * Some requests will appear, click "account" with initiator '(index)' and copy the Authorization header under "Request Headers". It should start with "JWT", followed by a train of characters. Make sure you copy all of it!
-* Insert token in the following line of code:
+* Insert token in the following line of code without '{}':
 
 ```javascript
     h.append('Authorization','{Insert here token}')
