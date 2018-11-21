@@ -21,4 +21,4 @@ In order to obtain your Authorization Token, you must follow these steps:
     h.append('Authorization','{Insert here token}')
 ```
 
-You only need to do this once because AutoChronoGG will remember your authorization token (if valid).
+You only need to do this once because Info-Chrono will remember your authorization token (if valid).
