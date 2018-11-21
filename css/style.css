@@ -1,12 +1,43 @@
+html{
+  font-family:sans-serif;
+  height: 100%;
+}
 body{
   background-color: #2a1438fe;
 }
 .color{
   background-color: #371e47fe;
-  color: #371e47fe;
 }
 .color-secondary{
   background-color: #2a1438fe;
+}
+
+.table thead th{
+  border-bottom: 2px solid #271532;
+  border-top: 2px solid #271532;
+  border-left: 1px solid #271532;
+  border-right: 1px solid #271532;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    border: 1px solid #271532;
+}
+.card{
+  background-color: #371e47fe;
+  border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+  border-bottom: 2px solid #271532;
+  border-top: 2px solid #271532;
+  border-left: 2px solid #271532;
+  border-right: 2px solid #271532;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0,0,0,.3);
 }
 
 .shadow{
@@ -21,5 +52,37 @@ body{
 }
 
 .color-yellow{
-  color: #edbd2f;
+  color: #fc0;
+}
+
+.font{
+  font-family: Roboto,sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+a{
+  color: #fc0;
+  cursor: pointer;
+  font-family: Lato,sans-serif;
+  font-size: 1rem;
+  line-height: 160%
+}
+
+a:link{
+  text-decoration:none;
+}
+
+a:hover{
+  color:#e5b700;
+}
+
+td{
+  font-family: Lato,sans-serif;
+  font-size: 1rem;
+  line-height: 160%
+}
+
+li{
+  font-family: Lato,sans-serif;
 }

@@ -16,21 +16,18 @@ const getConnection = (i) => {
 };
 
 const drawGame = (e, i) => {
-  console.log(e)
-
   const game = `
     <tr>
-      <th class="table-light" scope="row">${i}</th>
+      <th class="table-light text-center" scope="row">${i}</th>
       <td class="table-light">${e.name}</td>
       <td class="table-light">${e.description}</td>
-      <td class="table-light">
+      <td class="table-light text-center ">
         <img src="https://www.chrono.gg/assets/images/coins/coin--1.76ce3c14.png" class="img-fluid coin-sm" alt="Responsive image">
         <span class="color-yellow">${e.price}</span>
       </td>
-      <td class="table-light"><a href="${e.url}"><span class="color-yellow">View game on Steam</span></a></td>
+      <td href="${e.url}" class="table-light"><a href="${e.url}" target="_blank"><div style="height:100%;width:100%"><span>View game on Steam</span></div></a></td>
     <tr>
   `;
-
   table.insertAdjacentHTML('beforeEnd',game);
 };
 

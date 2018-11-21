@@ -6,7 +6,7 @@ const getConnectionAccount = () => {
 
     let h = new Headers()
     h.append('Accept','application/json)')
-    h.append('Authorization','{Insert Token Here}') 
+    h.append('Authorization','{Insert here token}')
 
     let req = new Request(URL,{
       method: 'GET',
@@ -14,22 +14,20 @@ const getConnectionAccount = () => {
       mode: 'cors'
     });
     fetch(req)
-      .then(response => response.json())
-      .then(response =>{
-        response.forEach( e=>{
-            drawGame(e)
-          }
-        })
-      });
+        .then(response => response.json())
+        .then(response =>{
+          drawInfo(response);
+        });
 };
 
 
-const drawInfo = (e) => {
-  const game = `
-          <li class="list-group-item">Balance: </li>
-          <li class="list-group-item">Spins: </li>
-          <li class="list-group-item">Legendaries open: </li>
+const drawInfo = (response) => {
+  const info = `
+          <li class="list-group-item text-white color">Balance: ${response.coins.balance}</li>
+          <li class="list-group-item text-white color">Spins: ${response.coins.spins}</li>
+          <li class="list-group-item text-white color">Legendaries: ${response.coins.legendaries}</li>
         `;
-  table.insertAdjacentHTML('beforeEnd',game);
+  card.insertAdjacentHTML('beforeEnd',info);
 };
+
 getConnectionAccount();
