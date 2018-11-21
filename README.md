@@ -1,24 +1,13 @@
 # Info-Chrono
  Simple page to view [Chrono.gg](https://www.chrono.gg/) information of the new games to redeem and your account information instantly.
 # Configuration
- Open inspect element in [Chrono.gg](https://www.chrono.gg/):
- 
- ![Alt Text](https://image.ibb.co/exJrhA/1.png)
+The format is pretty straightforward, the program only needs your Authorization Token in order to have access to your Chrono.gg session.
 
-Click in network tab:
+In order to obtain your Authorization Token, you must follow these steps:
 
- ![Alt Text](https://image.ibb.co/iduxNA/2.png)
- 
-In finder insert "account" and press F5:
+* Head to [Chrono.gg](https://www.chrono.gg/) and login
+* Right-click anywhere -> Inspect Element -> Go to the network tab -> Filter by XHR
+* Keep the network tab open and refresh the page
+* Some requests will appear, click "account" and copy the Authorization header under "Request Headers". It should start with "JWT",        followed by a train of characters. Make sure you copy all of it!
 
- ![Alt Text](https://image.ibb.co/gupa9q/3.png)
-
-Click in account with initiator "(index)":
-
- ![Alt Text](https://image.ibb.co/kXMYvV/4.png)
- 
-Copy token:
-
- ![Alt Text](https://image.ibb.co/momDUq/5.png)
- 
-After obtaining the token this is replaced in the file 'account.js' located in the folder js, where it says '{Insert here token}' without '{}' 
+You only need to do this once because AutoChronoGG will remember your authorization token (if valid).
