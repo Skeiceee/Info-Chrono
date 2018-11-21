@@ -9,7 +9,7 @@ Click in network tab:
 
  ![Alt Text](https://image.ibb.co/iduxNA/2.png)
  
-In finder insert "account":
+In finder insert "account" and press F5:
 
  ![Alt Text](https://image.ibb.co/gupa9q/3.png)
 
