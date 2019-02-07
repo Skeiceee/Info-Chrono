@@ -23,4 +23,4 @@ In order to obtain your Authorization Token, you must follow these steps:
 
 You only need to do this once because Info-Chrono will remember your authorization token (if valid).
 
-# [Demo](https://infochrono.netlify.com/)
+### [Demo](https://infochrono.netlify.com/)
