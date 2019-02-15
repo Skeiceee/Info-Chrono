@@ -18,7 +18,7 @@ In order to obtain your Authorization Token, you must follow these steps:
 * Insert token in the following line of code without '{}':
 
 ```javascript
-    h.append('Authorization','{Insert here token}')
+    h.append('Authorization','Insert here token')
 ```
 
 You only need to do this once because Info-Chrono will remember your authorization token (if valid).
