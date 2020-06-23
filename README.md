@@ -1,8 +1,8 @@
 # ⚠️ Chrono.gg ended this service, this remains as a memory. ⚠️
 
-## Info-Chrono
+### Info-Chrono
  Simple page to view [Chrono.gg](https://www.chrono.gg/) information of the new games to redeem and your account information instantly.
-## Configuration
+### Configuration
 
 The format is pretty straightforward, the program only needs your Authorization Token in order to have access to your Chrono.gg session.
 
