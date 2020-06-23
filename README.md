@@ -1,4 +1,4 @@
-# ⚠️ Chrono.gg ended this service, this remains as a memory. ⚠️
+## ⚠️ Chrono.gg ended this service, this remains as a memory. ⚠️
 
 ### Info-Chrono
  Simple page to view [Chrono.gg](https://www.chrono.gg/) information of the new games to redeem and your account information instantly.
